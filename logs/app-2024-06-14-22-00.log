@@ -1,0 +1,11 @@
+{"message1":"${env:TZ:-2024-06-14 15:00:33.561}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:33.583}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:34.747}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:34.763}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:34.767}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:34.768}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:34.822}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:34.825}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:35.259}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:35.283}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}
+{"message1":"${env:TZ:-2024-06-14 15:00:35.297}","message2":"%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}"}

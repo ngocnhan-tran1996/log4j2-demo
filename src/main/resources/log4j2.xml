@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration name="Mask Library Test" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <Properties>
+    <Property name="TIMEZONE">%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}</Property>
+  </Properties>
+
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout
+        disableAnsi="false"
+        pattern="%style{${TIMEZONE}}{black} %highlight{%-5level}[%style{%t}{bright,blue}] %style{%c{1.}}{bright,yellow}: %m%n%throwable" />
+    </Console>
+
+    <RollingFile name="RollingFile"
+      filePattern="logs/app-%d{yyyy-MM-dd-HH-mm}.log">
+      <JsonTemplateLayout eventTemplateUri="classpath:EcsLayout.json" />
+
+      <TimeBasedTriggeringPolicy />
+    </RollingFile>
+  </Appenders>
+
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="Console" />
+      <AppenderRef ref="RollingFile" />
+    </Root>
+  </Loggers>
+</Configuration>

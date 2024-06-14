@@ -1,0 +1,11 @@
+2024-06-14 21:52:23,342 INFO c.e.d.DemoApplication [main] Starting DemoApplication using Java 22.0.1 with PID 7320 (C:\Users\NHAN\Downloads\Source\log4j2-demo\target\classes started by NHAN in C:\Users\NHAN\Downloads\Source\log4j2-demo)
+2024-06-14 21:52:23,352 INFO c.e.d.DemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-14 21:52:24,431 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-14 21:52:24,446 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-14 21:52:24,450 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-14 21:52:24,451 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-14 21:52:24,501 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-14 21:52:24,503 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1077 ms
+2024-06-14 21:52:24,872 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-14 21:52:24,888 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-14 21:52:24,896 INFO c.e.d.DemoApplication [main] Started DemoApplication in 2.051 seconds (process running for 3.071)
