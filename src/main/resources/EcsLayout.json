@@ -1,10 +1,14 @@
 {
   "message1": {
     "$resolver": "pattern",
-    "pattern": "${env:TZ:-%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}}"
+    "pattern": "${env:TZ:-%d{yyyy-MM-dd HH:mm:ss}{GMT+00}}"
   },
   "message2": {
     "$resolver": "pattern",
     "pattern": "${env:TZ:-${TIMEZONE}}"
+  },
+  "message3": {
+    "$resolver": "pattern",
+    "pattern": "${env:TZ:-%d{yyyy-MM-dd HH:mm:ss}}"
   }
 }

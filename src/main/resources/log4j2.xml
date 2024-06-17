@@ -2,7 +2,7 @@
 <Configuration name="Mask Library Test" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <Properties>
-    <Property name="TIMEZONE">%d{yyyy-MM-dd HH:mm:ss.SSS}{UTC+07}</Property>
+    <Property name="TIMEZONE">%d{yyyy-MM-dd HH:mm:ss}{GMT+03}</Property>
   </Properties>
 
   <Appenders>
@@ -21,7 +21,7 @@
   </Appenders>
 
   <Loggers>
-    <Root level="info">
+    <Root level="error">
       <AppenderRef ref="Console" />
       <AppenderRef ref="RollingFile" />
     </Root>
